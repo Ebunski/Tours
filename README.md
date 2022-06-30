@@ -1,4 +1,4 @@
-# 1. Birthday reminder
+# 2. Tours
 
 This is a simple project from freecodecamp
 
@@ -14,11 +14,7 @@ This is a simple project from freecodecamp
 
 ## Overview
 
-Project features react concepts like lists.
-Features:
-
-- Dynamically rendered list and dynamic number of items
-- Cancel button that clears reminders
+An app which displays the list of tours. The tours can be deleted. Each tour has text which a user can click show more for full content.
 
 ### The challenge
 
@@ -46,14 +42,17 @@ Users should be able to:
 ### What I learnt
 
 1. Css:
-   Learnt how to create responsive widths (with vw and max-width)
+   Styling buttons and underline class
 
 2. React:
-   Opportunity to practice basic react concepts like lists and event listeners.
+   -Working with API - async function,ty and catch blocks
+   -Conditional rendering of components
+   -Basic use of context
+   -Substring method(start,end)
    Overall it was a wonderful process.
 
 3. JSX
-   Learnt semantic html tag <article>
+   Component for loading phase when working with API
 
 ## Author
 
