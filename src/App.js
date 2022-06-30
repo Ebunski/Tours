@@ -4,7 +4,7 @@ import Tours from "./Tours";
 import axios from "axios";
 // ATTENTION!!!!!!!!!!
 // I SWITCHED TO PERMANENT DOMAIN
- const url2 = axios.create({
+const url2 = axios.create({
   baseURL: "http://localhost:3006",
 });
 const url = "https://course-api.com/react-tours-project";
@@ -49,7 +49,9 @@ function App() {
       <main>
         <div className="title">
           <h2>No tours left</h2>
-          <button onClick={getTours}>Refresh</button>
+          <button className="btn" onClick={getTours}>
+            Refresh
+          </button>
         </div>
       </main>
     );
