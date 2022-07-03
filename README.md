@@ -45,7 +45,7 @@ Users should be able to:
    Styling buttons and underline class
 
 2. React:
-   -Working with API - async function,ty and catch blocks
+   -Working with API - async function,try and catch blocks
    -Conditional rendering of components
    -Basic use of context
    -Substring method(start,end)
