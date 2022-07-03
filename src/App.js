@@ -4,9 +4,7 @@ import Tours from "./Tours";
 import axios from "axios";
 // ATTENTION!!!!!!!!!!
 // I SWITCHED TO PERMANENT DOMAIN
-const url2 = axios.create({
-  baseURL: "http://localhost:3006",
-});
+
 const url = "https://course-api.com/react-tours-project";
 
 export const deleteContext = React.createContext();
